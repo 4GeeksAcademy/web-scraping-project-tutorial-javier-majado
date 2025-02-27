@@ -44,4 +44,5 @@ dataframe.drop('Change', axis=1, inplace=True)
 dataframe["Revenue"]= dataframe["Revenue"].str.replace("B","").astype(float)
 #dataframe= dataframe.dropna()
 print(dataframe)
+h
 
